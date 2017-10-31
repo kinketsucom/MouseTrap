@@ -1,0 +1,563 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84D83A331FA85799007F1031 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D83A321FA85799007F1031 /* AppDelegate.swift */; };
+		84D83A351FA85799007F1031 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D83A341FA85799007F1031 /* ViewController.swift */; };
+		84D83A381FA85799007F1031 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D83A361FA85799007F1031 /* Main.storyboard */; };
+		84D83A3A1FA85799007F1031 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84D83A391FA85799007F1031 /* Assets.xcassets */; };
+		84D83A3D1FA85799007F1031 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84D83A3B1FA85799007F1031 /* LaunchScreen.storyboard */; };
+		84D83A481FA85799007F1031 /* MouseTrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D83A471FA85799007F1031 /* MouseTrapTests.swift */; };
+		84D83A531FA85799007F1031 /* MouseTrapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D83A521FA85799007F1031 /* MouseTrapUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84D83A441FA85799007F1031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D83A271FA85799007F1031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D83A2E1FA85799007F1031;
+			remoteInfo = MouseTrap;
+		};
+		84D83A4F1FA85799007F1031 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84D83A271FA85799007F1031 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84D83A2E1FA85799007F1031;
+			remoteInfo = MouseTrap;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84D83A2F1FA85799007F1031 /* MouseTrap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MouseTrap.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D83A321FA85799007F1031 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84D83A341FA85799007F1031 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		84D83A371FA85799007F1031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84D83A391FA85799007F1031 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84D83A3C1FA85799007F1031 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84D83A3E1FA85799007F1031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D83A431FA85799007F1031 /* MouseTrapTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseTrapTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D83A471FA85799007F1031 /* MouseTrapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseTrapTests.swift; sourceTree = "<group>"; };
+		84D83A491FA85799007F1031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84D83A4E1FA85799007F1031 /* MouseTrapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MouseTrapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84D83A521FA85799007F1031 /* MouseTrapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MouseTrapUITests.swift; sourceTree = "<group>"; };
+		84D83A541FA85799007F1031 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84D83A2C1FA85799007F1031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A401FA85799007F1031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A4B1FA85799007F1031 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84D83A261FA85799007F1031 = {
+			isa = PBXGroup;
+			children = (
+				84D83A311FA85799007F1031 /* MouseTrap */,
+				84D83A461FA85799007F1031 /* MouseTrapTests */,
+				84D83A511FA85799007F1031 /* MouseTrapUITests */,
+				84D83A301FA85799007F1031 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84D83A301FA85799007F1031 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84D83A2F1FA85799007F1031 /* MouseTrap.app */,
+				84D83A431FA85799007F1031 /* MouseTrapTests.xctest */,
+				84D83A4E1FA85799007F1031 /* MouseTrapUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84D83A311FA85799007F1031 /* MouseTrap */ = {
+			isa = PBXGroup;
+			children = (
+				84D83A321FA85799007F1031 /* AppDelegate.swift */,
+				84D83A341FA85799007F1031 /* ViewController.swift */,
+				84D83A361FA85799007F1031 /* Main.storyboard */,
+				84D83A391FA85799007F1031 /* Assets.xcassets */,
+				84D83A3B1FA85799007F1031 /* LaunchScreen.storyboard */,
+				84D83A3E1FA85799007F1031 /* Info.plist */,
+			);
+			path = MouseTrap;
+			sourceTree = "<group>";
+		};
+		84D83A461FA85799007F1031 /* MouseTrapTests */ = {
+			isa = PBXGroup;
+			children = (
+				84D83A471FA85799007F1031 /* MouseTrapTests.swift */,
+				84D83A491FA85799007F1031 /* Info.plist */,
+			);
+			path = MouseTrapTests;
+			sourceTree = "<group>";
+		};
+		84D83A511FA85799007F1031 /* MouseTrapUITests */ = {
+			isa = PBXGroup;
+			children = (
+				84D83A521FA85799007F1031 /* MouseTrapUITests.swift */,
+				84D83A541FA85799007F1031 /* Info.plist */,
+			);
+			path = MouseTrapUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84D83A2E1FA85799007F1031 /* MouseTrap */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D83A571FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrap" */;
+			buildPhases = (
+				84D83A2B1FA85799007F1031 /* Sources */,
+				84D83A2C1FA85799007F1031 /* Frameworks */,
+				84D83A2D1FA85799007F1031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MouseTrap;
+			productName = MouseTrap;
+			productReference = 84D83A2F1FA85799007F1031 /* MouseTrap.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84D83A421FA85799007F1031 /* MouseTrapTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D83A5A1FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrapTests" */;
+			buildPhases = (
+				84D83A3F1FA85799007F1031 /* Sources */,
+				84D83A401FA85799007F1031 /* Frameworks */,
+				84D83A411FA85799007F1031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D83A451FA85799007F1031 /* PBXTargetDependency */,
+			);
+			name = MouseTrapTests;
+			productName = MouseTrapTests;
+			productReference = 84D83A431FA85799007F1031 /* MouseTrapTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		84D83A4D1FA85799007F1031 /* MouseTrapUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84D83A5D1FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrapUITests" */;
+			buildPhases = (
+				84D83A4A1FA85799007F1031 /* Sources */,
+				84D83A4B1FA85799007F1031 /* Frameworks */,
+				84D83A4C1FA85799007F1031 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84D83A501FA85799007F1031 /* PBXTargetDependency */,
+			);
+			name = MouseTrapUITests;
+			productName = MouseTrapUITests;
+			productReference = 84D83A4E1FA85799007F1031 /* MouseTrapUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84D83A271FA85799007F1031 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0900;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = sekibotbot;
+				TargetAttributes = {
+					84D83A2E1FA85799007F1031 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+					84D83A421FA85799007F1031 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D83A2E1FA85799007F1031;
+					};
+					84D83A4D1FA85799007F1031 = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 84D83A2E1FA85799007F1031;
+					};
+				};
+			};
+			buildConfigurationList = 84D83A2A1FA85799007F1031 /* Build configuration list for PBXProject "MouseTrap" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84D83A261FA85799007F1031;
+			productRefGroup = 84D83A301FA85799007F1031 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84D83A2E1FA85799007F1031 /* MouseTrap */,
+				84D83A421FA85799007F1031 /* MouseTrapTests */,
+				84D83A4D1FA85799007F1031 /* MouseTrapUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84D83A2D1FA85799007F1031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D83A3D1FA85799007F1031 /* LaunchScreen.storyboard in Resources */,
+				84D83A3A1FA85799007F1031 /* Assets.xcassets in Resources */,
+				84D83A381FA85799007F1031 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A411FA85799007F1031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A4C1FA85799007F1031 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84D83A2B1FA85799007F1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D83A351FA85799007F1031 /* ViewController.swift in Sources */,
+				84D83A331FA85799007F1031 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A3F1FA85799007F1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D83A481FA85799007F1031 /* MouseTrapTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84D83A4A1FA85799007F1031 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84D83A531FA85799007F1031 /* MouseTrapUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84D83A451FA85799007F1031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D83A2E1FA85799007F1031 /* MouseTrap */;
+			targetProxy = 84D83A441FA85799007F1031 /* PBXContainerItemProxy */;
+		};
+		84D83A501FA85799007F1031 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84D83A2E1FA85799007F1031 /* MouseTrap */;
+			targetProxy = 84D83A4F1FA85799007F1031 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84D83A361FA85799007F1031 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D83A371FA85799007F1031 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84D83A3B1FA85799007F1031 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84D83A3C1FA85799007F1031 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84D83A551FA85799007F1031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84D83A561FA85799007F1031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84D83A581FA85799007F1031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		84D83A591FA85799007F1031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrap/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrap;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		84D83A5B1FA85799007F1031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseTrap.app/MouseTrap";
+			};
+			name = Debug;
+		};
+		84D83A5C1FA85799007F1031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrapTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrapTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MouseTrap.app/MouseTrap";
+			};
+			name = Release;
+		};
+		84D83A5E1FA85799007F1031 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseTrap;
+			};
+			name = Debug;
+		};
+		84D83A5F1FA85799007F1031 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = H29257Q683;
+				INFOPLIST_FILE = MouseTrapUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = sekibotbot.MouseTrapUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MouseTrap;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84D83A2A1FA85799007F1031 /* Build configuration list for PBXProject "MouseTrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D83A551FA85799007F1031 /* Debug */,
+				84D83A561FA85799007F1031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D83A571FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrap" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D83A581FA85799007F1031 /* Debug */,
+				84D83A591FA85799007F1031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D83A5A1FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrapTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D83A5B1FA85799007F1031 /* Debug */,
+				84D83A5C1FA85799007F1031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84D83A5D1FA85799007F1031 /* Build configuration list for PBXNativeTarget "MouseTrapUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84D83A5E1FA85799007F1031 /* Debug */,
+				84D83A5F1FA85799007F1031 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84D83A271FA85799007F1031 /* Project object */;
+}
